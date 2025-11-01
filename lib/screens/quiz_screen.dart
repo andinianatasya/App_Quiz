@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:utsl_pemmob/widgets/gradient_backgound.dart';
+import '../widgets/gradient_backgound.dart';
 import '../providers/quiz_provider.dart';
 import '../widgets/answer_option.dart';
 
@@ -149,9 +149,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                 },
                               );
                             }),
-
-                            const SizedBox(height: 20), 
-
+                            const SizedBox(height: 20),
                           ],
                         ),
                       ),

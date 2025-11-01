@@ -8,13 +8,13 @@ class AnswerOption extends StatelessWidget {
   final Color iconColor;
 
   const AnswerOption({
-    Key? key,
+    super.key,
     required this.optionText,
     required this.onTap,
     this.color = Colors.white,
     this.icon,
     this.iconColor = Colors.transparent
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -59,7 +59,7 @@ class ScoreScreen extends StatelessWidget {
                 PrimaryButton(
                   text: 'MAIN LAGI',
                   onPressed: () {
-                    Navigator.pushReplacementNamed(context, '/');
+                    Navigator.pushReplacementNamed(context, '/input-nama');
                   },
                 )
               ],
