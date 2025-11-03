@@ -1,6 +1,6 @@
 # Andini Anatasia 231401002 - LAB PM 3
 
-Quizdin - Aplikasi mobile kuis pilihan ganda, dimana user bisa memasukkan nama, menjawab soal, serta melihat skor akhir.
+WorldExplorer - Aplikasi mobile kuis pilihan ganda tentang tempat terkenal di dunia, dimana user bisa memasukkan nama, menjawab soal, serta melihat skor akhir.
 
 Referensi (@mossux): https://www.figma.com/community/file/1370409076087270227
 
