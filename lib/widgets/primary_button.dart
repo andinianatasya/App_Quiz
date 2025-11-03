@@ -26,6 +26,7 @@ class PrimaryButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(30),
           ),
           textStyle: const TextStyle(
+            fontFamily: 'Bell',
             fontSize: 18,
             fontWeight: FontWeight.bold,
           ),

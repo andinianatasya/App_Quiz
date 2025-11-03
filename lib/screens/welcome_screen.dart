@@ -27,7 +27,7 @@ class WelcomeScreen extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: const [
                 Text(
-                  'Selamat Datang di Quizdin!',
+                  'Selamat Datang di WorldExplorer!',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Color(0xFF311B92),

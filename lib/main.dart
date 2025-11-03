@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Quizdin',
+      title: 'WorldExplorer!',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        fontFamily: 'Poppins',
+        fontFamily: 'Bell',
       ),
       initialRoute: '/',
       routes: {

@@ -15,6 +15,7 @@ class QuizScreen extends StatefulWidget {
 class _QuizScreenState extends State<QuizScreen> {
   Timer? _timer;
   int _secondsRemaining = 15;
+  final _scrollController = ScrollController();
 
   void _startTimer() {
     _timer?.cancel();
@@ -52,6 +53,7 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   void dispose() {
     _timer?.cancel();
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -77,9 +79,9 @@ class _QuizScreenState extends State<QuizScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-
                     Expanded(
                       child: SingleChildScrollView(
+                        controller: _scrollController,
                         child: Column(
                           children: [
                             Center(
@@ -160,6 +162,12 @@ class _QuizScreenState extends State<QuizScreen> {
                         alignment: Alignment.bottomRight,
                         child: FloatingActionButton(
                           onPressed: () {
+                            _scrollController.animateTo(
+                              0.0, // Posisi 0 adalah paling atas
+                              duration: const Duration(milliseconds: 300), // Durasi animasi
+                              curve: Curves.easeOut, // Jenis animasi
+                            );
+
                             quiz.nextQuestion(context);
                           },
                           backgroundColor: Colors.white,
