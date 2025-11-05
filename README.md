@@ -6,6 +6,10 @@ Referensi (@mossux): https://www.figma.com/community/file/1370409076087270227
 
 Prototype: https://www.figma.com/design/dLr4H8w3FuGtQ2I3BNykNQ/Kids-App---Quiz-Game--Community-?node-id=0-1&t=lz2UbyNFTaZ9Rc7w-1
 
+Video Aplikasi: https://drive.google.com/file/d/1m_BkS7aEAO9zYwyc-HZ5aBOKB5SpQyOZ/view?usp=sharing
+
+asset image diambil dari Google
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
